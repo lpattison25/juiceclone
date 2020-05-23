@@ -1,0 +1,825 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+/* navigation */
+
+#main-nav {
+  background: white;
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+
+  -webkit-box-shadow: 1px 4px 5px -4px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 1px 4px 5px -4px rgba(0, 0, 0, 0.33);
+  box-shadow: 1px 4px 5px -4px rgba(0, 0, 0, 0.33);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+#main-nav .logo-container {
+  display: flex;
+}
+
+#main-nav .logo-container .logo {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+#main-nav .main-links {
+  display: flex;
+  align-items: center;
+}
+
+#main-nav .main-links a {
+  text-decoration: none;
+  color: black;
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#main-nav .main-links a:hover {
+  color: rgb(71, 70, 70);
+  opacity: 0.9;
+  transition: 0.4s ease-in-out;
+}
+
+/* hero section */
+
+#hero-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: url(/img/header_bg-1.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+#hero-area .hero-text {
+  margin-bottom: 250px;
+}
+
+#hero-area .hero-text h1 {
+  font-size: 150px;
+  letter-spacing: 13px;
+  margin-bottom: 40px;
+  color: white;
+  text-shadow: 4px 4px 11px rgba(150, 150, 150, 0.59);
+  font-weight: 600;
+}
+
+#hero-area .hero-text h2 {
+  letter-spacing: 13px;
+  font-size: 23px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: rgb(160, 158, 158);
+}
+
+/* juice area */
+
+#juice-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  max-width: 1050px;
+  margin: auto;
+  padding: 80px 0;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+#juice-area img {
+  height: 300px;
+}
+
+#juice-area .vegetable-juices {
+  text-align: center;
+}
+
+#juice-area .vegetable-juices h2 {
+  font-size: 21px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#juice-area .vegetable-juices p {
+  width: 98%;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 15px;
+  color: rgb(58, 55, 55);
+}
+
+#juice-area .fruit-juices {
+  text-align: center;
+}
+
+#juice-area .fruit-juices h2 {
+  font-size: 21px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#juice-area .fruit-juices p {
+  width: 98%;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 15px;
+  color: rgb(58, 55, 55);
+}
+
+/* claims area */
+
+#claim-section {
+  background: url(/img/juice-bar-01.jpg) no-repeat center center/cover;
+  height: 70vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#claim-section .claim-box {
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 900px;
+  height: 300px;
+}
+
+#claim-section .claim-box h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#claim-section .claim-box p {
+  width: 70%;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(65, 64, 64);
+  margin-bottom: 20px;
+}
+
+#claim-section .claim-box .btn {
+  text-decoration: none;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 16px 33px;
+  border-radius: 30px;
+}
+
+#claim-section .claim-box .btn:hover {
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+/* box area */
+
+#box-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Poppins", sans-serif;
+  grid-gap: 40px;
+  justify-items: center;
+  align-items: center;
+  padding: 130px 0;
+
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* box one */
+
+#box-area .box-one {
+  background: #ecbe56;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 50px 10px;
+  padding-bottom: 70px;
+  color: white;
+}
+
+#box-area .box-one img {
+  margin-bottom: 26px;
+}
+
+#box-area .box-one h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#box-area .box-one p {
+  font-size: 15px;
+  line-height: 1.6;
+  width: 90%;
+  margin: auto;
+}
+
+/* box two */
+
+#box-area .box-two {
+  background: #f26c43;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 50px 10px;
+  padding-bottom: 70px;
+  color: white;
+}
+
+#box-area .box-two img {
+  margin-bottom: 26px;
+}
+
+#box-area .box-two h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#box-area .box-two p {
+  font-size: 15px;
+  line-height: 1.6;
+  width: 90%;
+  margin: auto;
+}
+
+/* box three */
+
+#box-area .box-three {
+  background: #79b853;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 50px 10px;
+  padding-bottom: 70px;
+  color: white;
+}
+
+#box-area .box-three img {
+  margin-bottom: 26px;
+}
+
+#box-area .box-three h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#box-area .box-three p {
+  font-size: 15px;
+  line-height: 1.6;
+  width: 90%;
+  margin: auto;
+}
+
+/* organic section */
+
+#organic-section {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 130px;
+}
+
+#organic-section .left-text {
+  padding-top: 70px;
+}
+
+#organic-section .left-text h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+#organic-section .left-text .first-para {
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+}
+
+#organic-section .left-text .second-para {
+  line-height: 1.4;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+}
+
+#organic-section .right-image {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#organic-section .right-image img {
+  height: 345px;
+}
+
+/* cleanse section */
+
+#cleanse-section {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding-top: 70px;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+#cleanse-section .left-image img {
+  height: 345px;
+  margin-right: 50px;
+}
+
+#cleanse-section .right-text h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+#cleanse-section .right-text p {
+  line-height: 1.4;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+  margin-bottom: 40px;
+}
+
+#cleanse-section .right-text .btn {
+  text-decoration: none;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 13px 28px;
+  border-radius: 30px;
+}
+
+/* cleanse image */
+
+#cleanse-contain {
+  background: url(/img/juice-bar-43-1.jpg) no-repeat center center/cover;
+  height: 890px;
+  position: relative;
+  background-position-y: 75%;
+}
+
+/* leaf img */
+
+.leaf-img {
+  position: relative;
+  bottom: 200px;
+  right: 60px;
+  animation-name: leaf;
+  animation-duration: 3s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes leaf {
+  from {
+    right: 500px;
+    opacity: 0.7;
+  }
+}
+
+/* healthy juices */
+
+#healthy-juices {
+  font-family: "Poppins", sans-serif;
+}
+
+#healthy-juices .healthy-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+#healthy-juices .healthy-header h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#healthy-juices .healthy-header p {
+  width: 40%;
+  margin: auto;
+  line-height: 1.6;
+  color: rgb(37, 37, 37);
+}
+
+#healthy-juices .healthy-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3fr;
+  justify-content: center;
+  margin: auto;
+  max-width: 1000px;
+}
+
+@keyframes boxes {
+  from {
+  }
+}
+
+#healthy-juices .healthy-boxes img {
+  height: 320px;
+}
+
+#healthy-juices .healthy-boxes .box-img {
+  display: flex;
+  justify-content: center;
+}
+
+#healthy-juices .healthy-boxes h3 {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#healthy-juices .healthy-boxes p {
+  width: 100%;
+  color: white;
+  line-height: 1.4;
+}
+
+#healthy-juices .healthy-boxes .yellow-box {
+  background: #ecbe56;
+  margin: auto;
+  width: 50%;
+  padding: 60px 70px;
+  text-align: center;
+  border-radius: 10px;
+  animation-name: box;
+  animation-duration: 2s;
+  -webkit-box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  animation-fill-mode: initial;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes box {
+  from {
+    opacity: 0;
+    padding: 0px 60px;
+  }
+}
+
+#healthy-juices .healthy-boxes .red-box {
+  background: #f26c43;
+  margin: auto;
+  width: 50%;
+  padding: 60px 70px;
+  text-align: center;
+  border-radius: 10px;
+  animation-name: box;
+  animation-duration: 2s;
+  -webkit-box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  animation-fill-mode: initial;
+  animation-timing-function: ease-in-out;
+}
+
+#healthy-juices .healthy-boxes .green-box {
+  background: #79b853;
+  margin: auto;
+  width: 50%;
+  padding: 60px 70px;
+  text-align: center;
+  border-radius: 10px;
+  animation-name: box;
+  animation-duration: 2s;
+  -webkit-box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  box-shadow: 2px 7px 5px -2px rgba(0, 0, 0, 0.13);
+  animation-fill-mode: initial;
+  animation-timing-function: ease-in-out;
+}
+
+/* stats */
+
+#healthy-juices .stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#healthy-juices .measure-stat {
+  background: #dddddd;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+@keyframes colors {
+  from {
+    width: 0%;
+  }
+}
+
+#healthy-juices .color {
+  animation-name: colors;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+#healthy-juices .vitamin-a {
+  color: #3d6646;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+#healthy-juices .vitamin-d {
+  color: #ecbe56;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+#healthy-juices .potassium {
+  color: #287a8c;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+#healthy-juices .vitamin-b {
+  color: #f26c43;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+#healthy-juices .vitamin-b12 {
+  color: #a53d4c;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+#healthy-juices .vitamin-c {
+  color: #79b853;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+#healthy-juices .vitamin-a .color {
+  background: #3d6646;
+  width: 70%;
+  padding: 12px 0px;
+  height: 100%;
+}
+
+#healthy-juices .vitamin-d .color {
+  background: #ecbe56;
+  width: 50%;
+  padding: 12px 0px;
+  height: 100%;
+}
+
+#healthy-juices .potassium .color {
+  background: #287a8c;
+  width: 30%;
+  padding: 12px 0px;
+  height: 100%;
+}
+
+#healthy-juices .vitamin-b .color {
+  background: #f26c43;
+  width: 80%;
+  padding: 12px 0px;
+  height: 100%;
+}
+
+#healthy-juices .vitamin-b12 .color {
+  background: #a53d4c;
+  width: 40%;
+  padding: 12px 0px;
+  height: 100%;
+}
+
+#healthy-juices .vitamin-c .color {
+  background: #79b853;
+  width: 90%;
+  padding: 12px 0px;
+  height: 100%;
+}
+
+/* leaf 2 */
+
+.leaf2 {
+  display: flex;
+
+  justify-content: flex-end;
+  position: relative;
+  top: 70px;
+
+  margin-top: 20px;
+  animation-name: leaf2;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.leaf2 img {
+  height: 240px;
+}
+
+@keyframes leaf2 {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1980px, 0, 0);
+  }
+}
+
+/* customer review */
+
+#customer-review {
+  background: #f5f5f5;
+}
+
+#customer-review .customer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+#customer-review .left-text {
+  font-family: "Poppins", sans-serif;
+}
+
+#customer-review .left-text p:nth-child(1) {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+#customer-review .left-text p:nth-child(2) {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+#customer-review .left-text .customer {
+  color: rgb(95, 94, 94);
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+}
+
+#customer-review .right-image img {
+  height: 600px;
+}
+
+/* contact area */
+
+#contact-us .contact-contain {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 10px;
+  padding-top: 110px;
+  font-family: "Poppins", sans-serif;
+}
+
+#contact-us .contact-text {
+  margin-right: 44px;
+  margin-top: 20px;
+}
+
+#contact-us .contact-text h3 {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+#contact-us .contact-text p {
+  line-height: 1.4;
+  color: rgb(46, 44, 44);
+  font-weight: 400;
+}
+
+#contact-us .contact-form {
+  margin-left: 5px;
+}
+
+#contact-us .contact-form .name-email {
+  margin-bottom: 15px;
+}
+
+#contact-us .contact-form .name {
+  border: 2px solid rgb(221, 219, 219);
+  padding: 13px 27px;
+  color: rgb(155, 154, 154);
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 10px;
+}
+
+#contact-us .contact-form .email {
+  border: 2px solid rgb(221, 219, 219);
+  padding: 13px 30px;
+  color: rgb(155, 154, 154);
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+#contact-us .contact-form .message {
+  border: 2px solid rgb(221, 219, 219);
+  padding: 13px 20px;
+  color: rgb(155, 154, 154);
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 7px;
+}
+
+#contact-us .btn-contain {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contact-us .message-btn {
+  text-decoration: none;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 19px 33px;
+  border-radius: 40px;
+}
